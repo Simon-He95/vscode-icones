@@ -1,6 +1,7 @@
 import * as vscode from 'vscode'
 
 export function activate() {
+  // todo: 解决iframe与vscode通信问题
   vscode.commands.registerCommand('vscode-icones.openUrl', () => {
     const panel = vscode.window.createWebviewPanel(
       'Icones',
