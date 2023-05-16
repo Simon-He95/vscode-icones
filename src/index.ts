@@ -3,7 +3,7 @@ import * as vscode from 'vscode'
 export function activate() {
   vscode.commands.registerCommand('vscode-icones.openUrl', () => {
     const panel = vscode.window.createWebviewPanel(
-      'exampleWebView',
+      'Icones',
       'webview',
       vscode.ViewColumn.One,
       {
@@ -26,7 +26,7 @@ export function activate() {
           </style>
         </head>
         <body>
-          <iframe src="https://icones.js.org/collection/all" width="100%" height="100%"></iframe>
+          <iframe src="https://icones.js.org" width="100%" height="100%"></iframe>
         </body>
       </html>
     `
