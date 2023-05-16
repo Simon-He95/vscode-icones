@@ -18,7 +18,8 @@ export function activate(context: any) {
     // And the uri we use to load this script in the webview
     const scriptUri = panel.webview.asWebviewUri(scriptPathOnDisk)
     const nonce = getNonce()
-
+    // 合并前先用netlify地址
+    const iconesUrl = 'https://vscode-icones.netlify.app/'
     panel.webview.html = `
       <!DOCTYPE html>
       <html lang="en">
@@ -34,7 +35,7 @@ export function activate(context: any) {
           </style>
         </head>
         <body>
-          <iframe id="icones" src="http://127.0.0.1:3333/" width="100%" height="100%"></iframe>
+          <iframe id="icones" src="${iconesUrl}" width="100%" height="100%"></iframe>
           <script nonce="${nonce}" src="${scriptUri}"></script>
         </body>
       </html>
