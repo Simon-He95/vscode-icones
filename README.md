@@ -5,6 +5,8 @@
 
 vscode extension: Open icons in vscode, no need to go to the browser to find icons
 
+![demo](assets/demo.gif)
+
 ## :coffee:
 
 [buy me a cup of coffee](https://github.com/Simon-He95/sponsor)
