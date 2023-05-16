@@ -3,6 +3,7 @@
 </p>
 <p align="center"> English | <a href="./README_zh.md">简体中文</a></p>
 
+vscode extension: Open icons in vscode, no need to go to the browser to find icons
 
 ## :coffee:
 

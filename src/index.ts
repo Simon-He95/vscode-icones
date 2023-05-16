@@ -1,7 +1,7 @@
 import * as vscode from 'vscode'
 
 export function activate() {
-  vscode.commands.registerCommand('iframe-icones.openUrl', () => {
+  vscode.commands.registerCommand('vscode-icones.openUrl', () => {
     const panel = vscode.window.createWebviewPanel(
       'exampleWebView',
       'webview',

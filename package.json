@@ -1,20 +1,20 @@
 {
   "publisher": "simonhe",
-  "name": "vscode-iframe-icones",
-  "displayName": "vscode iframe icones",
+  "name": "vscode-icones",
+  "displayName": "vscode icones",
   "version": "0.0.0",
   "packageManager": "pnpm@8.1.1",
   "description": "open icones in vscode",
   "author": "Simon He <https://github.com/Simon-He95>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/Simon-He95",
-  "homepage": "https://github.com/Simon-He95/vscode-iframe-icones#readme",
+  "homepage": "https://github.com/Simon-He95/vscode-icones#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Simon-He95/vscode-iframe-icones"
+    "url": "https://github.com/Simon-He95/vscode-icones"
   },
   "bugs": {
-    "url": "https://github.com/Simon-He95/vscode-iframe-icones/issues"
+    "url": "https://github.com/Simon-He95/vscode-icones/issues"
   },
   "sponsor": {
     "url": "https://github.com/Simon-He95/sponsor"
@@ -38,14 +38,14 @@
       "editor/context": [
         {
           "when": "editorFocus",
-          "command": "iframe-icones.openUrl",
+          "command": "vscode-icones.openUrl",
           "group": "6_px"
         }
       ]
     },
     "commands": [
       {
-        "command": "iframe-icones.openUrl",
+        "command": "vscode-icones.openUrl",
         "title": "open icones"
       }
     ]
