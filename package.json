@@ -2,7 +2,7 @@
   "publisher": "simonhe",
   "name": "vscode-icones",
   "displayName": "vscode icones",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@8.1.1",
   "description": "open icones in vscode",
   "author": "Simon He <https://github.com/Simon-He95>",
@@ -49,7 +49,6 @@
         "title": "open icones"
       }
     ]
-
   },
   "scripts": {
     "dev": "pnpm build --watch",
