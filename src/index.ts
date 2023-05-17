@@ -18,7 +18,6 @@ export function activate(context: any) {
     // And the uri we use to load this script in the webview
     const scriptUri = panel.webview.asWebviewUri(scriptPathOnDisk)
     const nonce = getNonce()
-    // 合并前先用netlify地址
     const iconesUrl = 'https://vscode-icones.netlify.app/'
     panel.webview.html = `
       <!DOCTYPE html>

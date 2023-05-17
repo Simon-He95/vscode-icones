@@ -5,6 +5,8 @@
 
 vscode extension: Open icons in vscode, no need to go to the browser to find icons
 
+🌈 Support copying in vscode～
+
 ![demo](assets/demo.gif)
 
 ## :coffee:

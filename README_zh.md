@@ -5,6 +5,8 @@
 
 vscode 插件: 在vscode中打开icones，不用再到浏览器去找图标
 
+🌈 支持在vscode中复制哦～
+
 ![demo](assets/demo.gif)
 
 ## :coffee:
