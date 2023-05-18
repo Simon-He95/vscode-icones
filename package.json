@@ -46,7 +46,7 @@
     "commands": [
       {
         "command": "vscode-icones.openUrl",
-        "title": "open icones"
+        "title": "vscode icones"
       }
     ]
   },
