@@ -5,7 +5,7 @@
     const data = e.data
     if (data) {
       if (data.eventType === 'copy')
-        vscode.postMessage(data)
+        vscode.postMessage({ type: 'copy', data: data.text })
     }
   })
 }())

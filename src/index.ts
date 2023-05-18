@@ -19,6 +19,8 @@ export function activate(context: any) {
     const scriptUri = panel.webview.asWebviewUri(scriptPathOnDisk)
     const nonce = getNonce()
     const iconesUrl = 'https://vscode-icones.netlify.app/'
+    // dev url
+    // const iconesUrl = 'http://127.0.0.1:3333/'
     panel.webview.html = `
       <!DOCTYPE html>
       <html lang="en">
@@ -40,11 +42,13 @@ export function activate(context: any) {
       </html>
     `
     panel.webview.onDidReceiveMessage(
-      (message) => {
+      ({ type, data }) => {
         // 设置剪贴板内容
-        vscode.env.clipboard.writeText(message.text).then(() => {
-          vscode.window.showInformationMessage('复制成功!  ✅')
-        })
+        if (type === 'copy') {
+          vscode.env.clipboard.writeText(data).then(() => {
+            vscode.window.showInformationMessage('复制成功!  ✅')
+          })
+        }
       },
     )
   })
