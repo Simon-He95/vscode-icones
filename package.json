@@ -65,7 +65,7 @@
     "@antfu/eslint-config": "^0.38.4",
     "@types/node": "^18.15.11",
     "@types/vscode": "^1.77.0",
-    "@vscode-use/createwebview": "^0.0.10",
+    "@vscode-use/createwebview": "^0.0.11",
     "@vscode-use/utils": "^0.0.36",
     "bumpp": "^9.1.0",
     "eslint": "^8.37.0",
